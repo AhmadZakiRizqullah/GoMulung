@@ -34,7 +34,6 @@ const SignUpPage: React.FC = () => {
                         <li><Link href="#">About</Link></li>
                         <li><Link href="#">Services</Link></li>
                         <li><Link href="#">Contact</Link></li>
-                        <li><Link href="/login">Login</Link></li>
                     </ul>
                 </nav>
             </header>
@@ -163,7 +162,6 @@ const SignUpPage: React.FC = () => {
                     marginTop: '1.5rem',
                     color: '#4a5568'
                 }}>
-                    Already part of our community? <a href="/login" style={{ color: '#38a169', textDecoration: 'none' }}>Log in here</a>
                 </p>
             </div>
         </div>

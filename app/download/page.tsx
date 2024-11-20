@@ -42,7 +42,7 @@ const DownloadPage: React.FC = () => {
               lineHeight: 1.6
             }}>
               Dapatkan kemudahan dalam mengelola sampah Anda dengan aplikasi Go Mulung. 
-              Tersedia di App Store dan Google Play Store.
+              Tersedia di Google Play Store dan akan segera hadir di App Store.
             </p>
             
             <div style={{
@@ -94,7 +94,7 @@ const DownloadPage: React.FC = () => {
                   fontSize: '1rem',
                   color: '#38a169',
                   marginBottom: '0.5rem'
-                }}>DOWNLOAD ON THE</p>
+                }}>COMING SOON ON THE</p>
                 <a href="https://www.apple.com/app-store/" 
                   target="_blank"
                   style={{
