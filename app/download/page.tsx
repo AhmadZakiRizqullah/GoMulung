@@ -151,9 +151,7 @@ const DownloadPage: React.FC = () => {
             <div>
               <h4 className="Sosmed">Sosial Media</h4>
               <div className="flex space-x-4">
-                <a href="#" className="hover:text-green-200 transition">Instagram</a>
-                <a href="#" className="hover:text-green-200 transition">Twitter</a>
-                <a href="#" className="hover:text-green-200 transition">Facebook</a>
+                <Link href="https://www.instagram.com/go_mulung?igsh=dzRzdWNrY2ZtcWNz" className="hover:text-green-200 transition">Instagram</Link>
               </div>
             </div>
           </div>
