@@ -1,5 +1,6 @@
 "use client";
 import Link from 'next/link';
+import Image from 'next/image';
 import React, { useState } from 'react';
 
 const Bantuan = () => {
@@ -61,7 +62,7 @@ const Bantuan = () => {
         <div style={styles.container}>
             <header>
                 <nav>
-                    <img src="asset/logo.png" alt="Go Mulung Logo" className="logo" />
+                    <Image src="asset/logo.png" alt="Go Mulung Logo" className="logo" />
                     <ul>
                         <li><Link href="/about">About</Link></li>
                         <li><Link href="/home">Home</Link></li>

@@ -1,16 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
 
-interface JenisSampahItemProps {
-  icon: string;
-  title: string;
-  description: string;
-}
-
-interface ListItemProps {
-  children: React.ReactNode;
-}
-
 export const Header: React.FC = () => (
   <header>
     <nav>

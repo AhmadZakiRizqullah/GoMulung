@@ -1,4 +1,5 @@
 "use client";
+import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState } from 'react';
 
@@ -27,7 +28,7 @@ const SignUpPage: React.FC = () => {
             <header>
                 <nav>
                     <Link href="/home">
-                        <img src="/asset/logo.png" alt="Go Mulung Logo" className="logo" />
+                        <Image src="/asset/logo.png" alt="Go Mulung Logo" className="logo" />
                     </Link>
                     <ul>
                         <li><Link href="/home">Home</Link></li>
