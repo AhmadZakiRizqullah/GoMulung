@@ -85,8 +85,6 @@ const Footer: React.FC = () => (
           <h4 className="Sosmed">Sosial Media</h4>
           <div className="flex space-x-4">
             <Link href="https://www.instagram.com/go_mulung?igsh=dzRzdWNrY2ZtcWNz" className="hover:text-green-200 transition">Instagram</Link>
-            <Link href="#" className="hover:text-green-200 transition">Twitter</Link>
-            <Link href="#" className="hover:text-green-200 transition">Facebook</Link>
           </div>
         </div>
       </div>
