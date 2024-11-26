@@ -1,10 +1,11 @@
 import Link from 'next/link';
 import React from 'react';
+import Image from 'next/image';
 
 export const Header: React.FC = () => (
   <header>
     <nav>
-      <img src="/asset/logo.png" alt="Go-mulung" className="logo" />
+      <Image src="/asset/logo.png" alt="Go-mulung" className="logo" />
       <ul>
         <li><Link href="/about">About</Link></li>
         <li><Link href="/home">Home</Link></li>
