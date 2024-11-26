@@ -2,7 +2,7 @@ import Link from 'next/link';
 import React from 'react';
 import Image from 'next/image';
 
-export const Header: React.FC = () => (
+const Header: React.FC = () => (
   <header>
     <nav>
       <Image src="/asset/logo.png" alt="Go-mulung" className="logo" />
