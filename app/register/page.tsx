@@ -28,13 +28,13 @@ const SignUpPage: React.FC = () => {
             <header>
                 <nav>
                     <Link href="/home">
-                        <Image src="/asset/logo.png" alt="Go Mulung Logo" className="logo" />
+                        <Image src="/asset/logo.png" alt="Go Mulung Logo" className="logo" width={100} height={100}/>
                     </Link>
                     <ul>
                         <li><Link href="/home">Home</Link></li>
-                        <li><Link href="#">About</Link></li>
+                        <li><Link href="/about">About</Link></li>
                         <li><Link href="#">Services</Link></li>
-                        <li><Link href="#">Contact</Link></li>
+                        <li><Link href="Contact">Contact</Link></li>
                     </ul>
                 </nav>
             </header>

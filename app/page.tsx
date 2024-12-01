@@ -5,7 +5,7 @@ import Image from 'next/image';
 const Header: React.FC = () => (
   <header>
     <nav>
-      <Image src="/asset/logo.png" alt="Go-mulung" className="logo" />
+      <Image src="/asset/logo.png" alt="Go-mulung" className="logo" width={100} height={100}/>
       <ul>
         <li><Link href="/about">About</Link></li>
         <li><Link href="/home">Home</Link></li>

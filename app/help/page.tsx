@@ -62,7 +62,7 @@ const Bantuan = () => {
         <div style={styles.container}>
             <header>
                 <nav>
-                    <Image src="asset/logo.png" alt="Go Mulung Logo" className="logo" />
+                    <Image src="/asset/logo.png" alt="Go Mulung Logo" className="logo" width={100} height={100}/>
                     <ul>
                         <li><Link href="/about">About</Link></li>
                         <li><Link href="/home">Home</Link></li>
