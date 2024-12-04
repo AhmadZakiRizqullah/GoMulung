@@ -90,11 +90,15 @@ const ContactPage: React.FC = () => {
                   color: '#2d3748',
                   fontSize: '1rem',
                   transition: 'all 0.3s ease',
-                  outline: 'none',
-                  '&:focus': {
-                    borderColor: '#38a169',
-                    boxShadow: '0 0 0 3px rgba(56, 161, 105, 0.1)'
-                  }
+                  outline: 'none'
+                }}
+                onFocus={(e) => {
+                  e.currentTarget.style.borderColor = '#38a169';
+                  e.currentTarget.style.boxShadow = '0 0 0 3px rgba(56, 161, 105, 0.1)';
+                }}
+                onBlur={(e) => {
+                  e.currentTarget.style.borderColor = '#e2e8f0';
+                  e.currentTarget.style.boxShadow = 'none';
                 }}
               />
             </div>
@@ -202,5 +206,3 @@ const ContactPage: React.FC = () => {
 };
 
 export default ContactPage;
-
-
