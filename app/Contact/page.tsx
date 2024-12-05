@@ -3,6 +3,34 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
+const Footer: React.FC = () => (
+  <footer className="Footer">
+    <div>
+      <div>
+        <div>
+          <h4 className="font-semibold mb-4">Kontak</h4>
+          <p>Email: info@gomulung.com</p>
+          <p>Telp: (021) 123-4567</p>
+        </div>
+        <div>
+          <h4 className="font-semibold mb-4">Alamat</h4>
+          <p>Jl. Kebersihan No. 123</p>
+          <p>Jakarta, Indonesia</p>
+        </div>
+        <div>
+          <h4 className="Sosmed">Sosial Media</h4>
+          <div className="flex space-x-4">
+            <Link href="https://www.instagram.com/go_mulung?igsh=dzRzdWNrY2ZtcWNz" className="hover:text-green-200 transition">Instagram</Link>
+          </div>
+        </div>
+      </div>
+      <div className="text-center mt-8">
+        <p>&copy; {new Date().getFullYear()} Go Mulung. Hak Cipta Dilindungi.</p>
+      </div>
+    </div>
+  </footer>
+);
+
 const ContactPage: React.FC = () => {
   const [formData, setFormData] = useState({
     name: '',
@@ -201,6 +229,7 @@ const ContactPage: React.FC = () => {
           </form>
         </div>
       </main>
+      <Footer />
     </div>
   );
 };
