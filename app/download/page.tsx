@@ -1,7 +1,6 @@
 "use client";
 import Link from 'next/link';
 import React from 'react';
-import Image from 'next/image';
 import { 
   Download, 
   Smartphone, 
@@ -11,24 +10,16 @@ import {
   Zap, 
   Shield,
   Leaf,
-  Heart,
   ArrowRight,
-  Globe,
   Phone,
   Mail,
-  Clock,
-  CheckCircle,
   Play,
   Apple,
-  Sparkles,
   TrendingUp,
   Globe2,
   CreditCard,
   Headphones,
-  Building,
-  Award,
-  CheckSquare,
-  Smartphone2,
+  MapPin,
   Monitor,
   Tablet
 } from 'lucide-react';
@@ -231,7 +222,7 @@ const DownloadSection: React.FC = () => (
         <div className="relative">
           <div className="card-modern p-8 text-center">
             <div className="w-24 h-24 bg-gradient-to-br from-green-500 to-emerald-600 rounded-3xl flex items-center justify-center mx-auto mb-6 shadow-lg">
-              <Smartphone2 className="h-12 w-12 text-white" />
+              <Smartphone className="h-12 w-12 text-white" />
             </div>
             <h3 className="text-2xl font-bold text-gray-900 mb-4">Aplikasi Mobile</h3>
             <p className="text-gray-600 mb-6 leading-relaxed">

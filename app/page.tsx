@@ -1,9 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
-import Image from 'next/image';
 import { 
   Truck, 
-  Users, 
   Shield, 
   Clock, 
   Star, 
@@ -13,18 +11,14 @@ import {
   MapPin,
   CheckCircle,
   Download,
-  Play,
-  Globe,
-  Zap,
   Leaf,
   Award,
-  Heart,
   Sparkles,
   TrendingUp,
   Globe2,
+  Headphones,
   Smartphone,
-  CreditCard,
-  Headphones
+  CreditCard
 } from 'lucide-react';
 
 const Header: React.FC = () => (
@@ -305,8 +299,8 @@ const Testimonials: React.FC = () => (
             ))}
           </div>
           <p className="testimonial-text">
-            "Layanan yang sangat memuaskan! Tim pengangkutan sangat profesional dan tepat waktu. 
-            Aplikasinya juga mudah digunakan dan tracking real-time sangat membantu."
+            &ldquo;Layanan yang sangat memuaskan! Tim pengangkutan sangat profesional dan tepat waktu. 
+            Aplikasinya juga mudah digunakan dan tracking real-time sangat membantu.&rdquo;
           </p>
           <div className="flex items-center">
             <div className="testimonial-avatar mr-4">SA</div>
@@ -324,8 +318,8 @@ const Testimonials: React.FC = () => (
             ))}
           </div>
           <p className="testimonial-text">
-            "Go-Mulung telah mengubah cara saya mengelola sampah. Sekarang lebih mudah, 
-            terorganisir, dan ramah lingkungan. Sangat direkomendasikan!"
+            &ldquo;Go-Mulung telah mengubah cara saya mengelola sampah. Sekarang lebih mudah, 
+            terorganisir, dan ramah lingkungan. Sangat direkomendasikan!&rdquo;
           </p>
           <div className="flex items-center">
             <div className="testimonial-avatar mr-4">BD</div>
@@ -343,8 +337,8 @@ const Testimonials: React.FC = () => (
             ))}
           </div>
           <p className="testimonial-text">
-            "Customer service yang luar biasa! Mereka selalu siap membantu dan memberikan 
-            solusi terbaik. Proses pengangkutan juga sangat cepat dan aman."
+            &ldquo;Customer service yang luar biasa! Mereka selalu siap membantu dan memberikan 
+            solusi terbaik. Proses pengangkutan juga sangat cepat dan aman.&rdquo;
           </p>
           <div className="flex items-center">
             <div className="testimonial-avatar mr-4">ML</div>

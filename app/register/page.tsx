@@ -8,27 +8,13 @@ import {
   Eye, 
   EyeOff, 
   ArrowLeft, 
-  CheckCircle,
   Leaf,
-  Zap,
   Heart,
-  Star,
   ArrowRight,
-  Globe,
   Phone,
-  Shield,
-  Clock,
-  Download,
-  Sparkles,
-  TrendingUp,
-  Globe2,
-  Smartphone,
-  CreditCard,
-  Headphones,
-  Building,
-  Users,
+  CheckSquare,
   Award,
-  CheckSquare
+  Star
 } from 'lucide-react';
 
 const Header: React.FC = () => (
