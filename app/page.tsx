@@ -38,10 +38,10 @@ const Header: React.FC = () => (
           <Link href="/" className="nav-link">
             Beranda
           </Link>
-          <Link href="/Services" className="nav-link">
+          <Link href="/services" className="nav-link">
             Layanan
           </Link>
-          <Link href="/About" className="nav-link">
+          <Link href="/about" className="nav-link">
             Tentang
           </Link>
           <Link href="/Contact" className="nav-link">
